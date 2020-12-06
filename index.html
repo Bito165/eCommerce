@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>100% Organic &amp; Natural Skin Care Products Online in India</title>
+  <base href="/">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap" rel="stylesheet">
+
+  <link href="http://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" type="text/css" media="all" />
+  <link href="http://thimatic-apps.com/product_review/theme_files/wc-review.css?v=1.1" rel="stylesheet" type="text/css" media="all" />
+  
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet">
+  
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+
+</head>
+<body>
+  <app-root></app-root>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="http://thimatic-apps.com/product_review/theme_files/wc-product-review.js?v=1.1" type="text/javascript"></script>
+  <script>
+    document.documentElement.style.setProperty('--header-height', document.getElementById('shopify-section-header').offsetHeight + 'px');
+  </script>
+  <script>
+    //Testimonails
+   $('#testimonials .owl-carousel').owlCarousel({
+    items: 1,
+    loop: true,
+    nav:false,
+    dots: true,
+    autoplay: true,
+    // autoplaySpeed: 8000,
+    autoplayTimeout:8000,
+    // slideTransition: 'linear',
+    // smartSpeed: 1000,
+    navText: ["undefined<img src='//cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-L.svg?v=1621263042506456347'>","undefined<img src='http://cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-R.svg?v=14607592447807313431'>"]
+});
+
+   $('.template-index .home-collection .desktop-view').slick({
+      infinite: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      dots: true
+  });
+
+   //AppTestimonails
+   $('#app-testimonials .owl-carousel').owlCarousel({
+    items: 2,
+    dots: false,
+    loop: true,
+    nav:false,
+    dots: false,
+    // autoplay: true,
+    autoplaySpeed: 2000,
+    smartSpeed: 1000,
+    navText: ["",""],
+     responsive:{
+    0:{
+        items:1,
+        nav:false,
+    },
+    768:{
+        items:2
+    }
+     }
+});
+
+  
+   /*hot deals(metafields) - collection/juicy-chemistry-deals*/
+   $('.nc-deals').owlCarousel({
+    items: 4,
+    dots: false,
+    loop: true,
+    nav:true,
+    navText: ["undefined<img src='//cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-L.svg?v=1621263042506456347'>","undefined<img src='http://cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-R.svg?v=14607592447807313431'>"],
+    responsive:{
+    0:{
+        items:2,
+        nav:false,
+    },
+    768:{
+        items:3
+    },
+    1024:{
+        items:4
+    }
+}
+});
+    //Reward
+    $('.reward-items').owlCarousel({
+    items: 6,
+    dots: false,    
+    loop: true,
+    nav:true,
+    // smartSpeed: 4000,
+    navText: ["undefined<img src='//cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-L.svg?v=1621263042506456347'>","undefined<img src='http://cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-R.svg?v=14607592447807313431'>"],
+    responsive: {
+        0: {
+//                  autoWidth:true,
+            items: 2,
+            dots: true,
+            nav: false,
+            margin:30,
+            loop: true,              
+            autoplay: true,
+            autoplayTimeout: 2000,
+            loop: true,
+            slideTransition: 'linear',
+            autoplaySpeed: 2000,
+            autoplayHoverPause: true,
+            navText: ["",""],
+        }, 
+        500: { items: 2, autoplay: true, },
+        769: { items: 3 },
+        1025: {items: 3 },
+        1200: { items: 6 }
+    }
+});
+      $('.ingridients--pick').owlCarousel({
+    items: 6,
+    dots: true,    
+    loop: true,
+    nav:true,
+   // smartSpeed: 4000,
+    navText: ["undefined<img src='//cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-L.svg?v=1621263042506456347'>","undefined<img src='http://cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-R.svg?v=14607592447807313431'>"],
+    responsive: {
+        0: {
+            items: 2,
+            dots: true,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            loop: true,
+            slideTransition: 'linear',
+            autoplaySpeed: 2000,
+            autoplayHoverPause: true,
+            navText: ["undefined<img src='//cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-L.svg?v=1621263042506456347'>","undefined<img src='http://cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-R.svg?v=14607592447807313431'>"],
+        }, 
+        768: { items: 3 },
+        1024: { items: 4,nav: true, },
+        1200: { items: 6,nav: true, },
+    }
+})
+
+//on load start owl imidiately 
+// setTimeout(function(){
+//     $('.ingridients--pick').trigger('next.owl.carousel', [2000]);
+//}, 100);
+  
+  $('.header-specifications .owl-carousel').owlCarousel({
+    items: 10,
+    dots: false,    
+    loop: false,
+    nav:false,
+    margin:30,
+    autoplayTimeout: 2000,
+    slideTransition: 'linear',
+    autoplaySpeed: 2000,
+    // smartSpeed: 4000,
+    navText: ["",""],
+    responsive: {
+        0: {
+            items: 3,
+            margin:0,
+            autoplay: true,
+            dots: false,
+            nav: false,
+            navText: ["",""],
+        }, 
+        768: { items: 6, margin:10 },
+        1024: { items: 10, margin:20 },
+        1200: { items: 10 },
+    }
+})
+
+/*on load start owl imidiately 
+setTimeout(function(){
+    $('.header-specifications .owl-carousel').trigger('next.owl.carousel', [2000]);
+}, 100);
+  */
+  $('.mobile-slick .owl-carousel').owlCarousel({
+    items: 1,
+    dots: false,
+    loop: true,
+    nav:true,
+    navText: ["undefined<img src='//cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-L.svg?v=1621263042506456347'>","undefined<img src='http://cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-R.svg?v=14607592447807313431'>"],
+    
+  });
+   //Reward
+    $('.nc-dynamic .owl-carousel').owlCarousel({
+    items: 4,
+    dots: false,    
+    loop: false,
+    nav:true,
+//         autoplay: true,
+    autoplayTimeout: 3000,
+    slideTransition: 'linear',
+    // autoplaySpeed: 2000,
+    // smartSpeed: 4000,
+    navText: ["undefined<img src='//cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-L.svg?v=1621263042506456347'>","undefined<img src='http://cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-R.svg?v=14607592447807313431'>"],
+    responsive: {
+        0: {
+//                 autoWidth:true,
+            items: 1,
+            dots: true,
+            nav: false,
+            loop: false,
+        }, 
+        500: { items: 4 },
+        769: { items: 4 },
+        1025: {items: 4 },
+        1200: { items: 4 }
+    }
+});
+  
+</script>
+</body>
+</html>
