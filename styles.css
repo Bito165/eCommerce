@@ -26267,6 +26267,7 @@ li.wa-optin-widget-list-items {
 }
 
 @media screen and (max-width:640px){
+    
     :root {
       --use-sticky-header: 1;
       --use-unsticky-header: 0;
@@ -26277,9 +26278,20 @@ li.wa-optin-widget-list-items {
       position: sticky;
       background:#fff;
     }
+
+    .sticky-top {
+        position: fixed !important;
+        top: 0;
+        z-index: 1020;
+        width: 100%;
+        background: white;
+    }
+
     }.jc-logo{
         width: 250px;
     }:root {
       --header-is-not-transparent: 1;
       --header-is-transparent: 0;
     }
+
+

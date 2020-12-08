@@ -1,337 +1,531 @@
 <header>
-    <div class="header-top">
-        
-        
-        <div class="jc-logo bg-image">
-          <a href="index.html"><img class="jc-logo" src="../cdn.shopify.com/s/files/1/0058/7779/2832/files/Juicy_Chemistry_Logo_8498b074-7cad-44ec-8382-b1d30ab95bc7f294.png?v=1593161535" alt="Juicy Chemistry"></a>
-        </div>
-        <div class="right-content">
-          
-            <div class="desktop-show">
-                 
-              <div class="search-form hidden-phone">
-        <form action="https://juicychemistry.com/search" name="GET" role="search" class="">
-            <div class="input-group">
-                <input class="disable-enter-search" type="search" name="st" autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search">
-                <div class="input-group-append"><button type="submit" class="icon-search"></button></div>
-            </div>
-        </form>
-    </div>
-                
-               
-          </div>
-            <div class="mobile-show header-bottom--right-content">
-                 
-              <div class="Search__SearchBar hidden-tablet-and-up">
-                  <button id="st-search-bar" class="Header__Icon Icon-Wrapper Icon-Wrapper--clickable" data-action="toggle-search" aria-label="Search">
-                    <span class=""><svg class="Icon Icon--search" role="presentation" viewBox="0 0 18 17">
-<g transform="translate(1 1)" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="square">
-<path d="M16 16l-5.0752-5.0752"></path>
-<circle cx="6.4" cy="6.4" r="6.4"></circle>
-</g>
-</svg></span>
-                  </button>
-                 </div>
-              <div class="search-form hidden-phone">
-                <form action="https://juicychemistry.com/search" name="GET" role="search" class="">
-                    <div class="input-group">
-                        <input class="hidden-phone disable-enter-search" type="search" name="st" autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search">
-                        <div class="input-group-append hidden-phone">
-                          <button data-action="toggle-search" type="submit" class="icon-search"></button>
-                      </div>
-                    </div>
-                </form>
-              </div>
-              <a class="hidden-tablet" href="cart.html" data-action="open-drawer" data-drawer-id="sidebar-cart" aria-label="Open cart">
-                  <span class="cart-icon">
-                  <span class="Header__CartCount">0</span></span></a>
-          </div>
-        </div>
-    </div>
-    <ul class="main-navigation">
-      
-        <li ><a class="dropdown-toggle" href="collections/best-organic-face-care-products.html">Face</a>
+  <div id="header-top" class="header-top sticky-top">
+      <div class="dropdown language-dropdown menu-icon-mobile">
+          <button class="btn hidden-phone" type="button" id="chooseLangBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="location-icon"></span>
+             <div class="doubly-wrapper"><select class="currency-switcher" name="doubly-currencies"><option value="INR">INR</option><option value="USD">USD</option><option value="EUR">EUR</option><option value="GBP">GBP</option><option value="CAD">CAD</option></select></div>
             
-                  <ul>
-                      
-                        <li ><a  href= "collections/cleansers.html">Cleansers</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/toners.html">Toners</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/face-moisturisers.html">Moisturisers</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/sunscreen.html">Sun Screen</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/facial-oils.html">Facial Oils</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/eye-care.html">Eye Care</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/lip-care.html">Lip Care</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/scrubs.html">Scrubs</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/masks.html">Face Masks</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/powder.html">Dusting Powder</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/makeup-cleanser.html">Makeup Cleansers</a>
-                               
-                        </li>
-                    
-                  </ul> 
-             
-        </li>
-      
-        <li ><a class="dropdown-toggle" href="collections/body-care.html">Body</a>
+            <span class="dropdown-icon"></span></button>
             
-                  <ul>
-                      
-                        <li ><a  href= "collections/bath-salts.html">HAND & FOOT CARE</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/gourmet-soaps.html">Gourmet Soaps</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/body-moisturisers.html">Body Moisturisers</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/bath-body-oils-1.html">Bath & Body Oils</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/deodorant.html">Deodorants</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/body-scrubs.html">Body Scrubs</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/powder.html">Dusting Powders</a>
-                               
-                        </li>
-                    
-                  </ul> 
-             
-        </li>
       
-        <li ><a class="dropdown-toggle" href="collections/hair-care.html">Hair</a>
-            
-                  <ul>
-                      
-                        <li ><a  href= "collections/oils.html">Oils</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/masque.html">Masque</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/shampoos.html">Shampoos</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/dry-shampoo.html">Dry Shampoo</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/camellia-amla-apricot-organic-leave-in-conditioner.html">Conditioner</a>
-                               
-                        </li>
-                    
-                  </ul> 
-             
-        </li>
-      
-        <li ><a class="dropdown-toggle" href="collections/best-certified-organic-aromatherapy.html">Aromatherapy</a>
-            
-                  <ul>
-                      
-                        <li ><a  href= "collections/cold-pressed-oils.html">Cold Pressed Oils</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/essential-oils.html">Essential Oils</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/incense-sticks.html">Incense Sticks</a>
-                               
-                        </li>
-                    
-                  </ul> 
-             
-        </li>
-      
-        <li ><a  href="collections/best-organic-baby-care-products.html">Juniors</a>
-             
-        </li>
-      
-        <li ><a class="dropdown-toggle" href="collections/routines.html">Shop By Concern</a>
-            
-                  <ul>
-                      
-                        <li ><a  href= "products/oily-skin-type-with-soap.html">OILY SKIN TYPE</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/damaged-pigmented-skin-with-soap-1.html">DAMAGED AND PIGMENTED SKIN WITH SOAP</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/damaged-pigmented-skin-with-face-wash.html">DAMAGED AND PIGMENTED SKIN WITH FACEWASH</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/oily-acne-prone-skin.html">OILY ACNE PRONE SKIN</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/black-heads-acne-prone-skin.html">BLACK HEADS & ACNE PRONE SKIN</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/dry-mature-skin.html">DRY MATURE SKIN</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/normal-and-tanned-skin-type.html">NORMAL AND TANNED SKIN</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/anti-ageing.html">ANTI AGEING</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/eye-care.html">EYE CARE</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/for-dry-frizzy-hair.html">DRY AND FRIZZY HAIR</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/for-itchy-scalp-and-dandruff-control-with-shampoo.html">ITCHY SCALP AND DANDRUFF CONTROL WITH SHAMPOO</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/for-itchy-scalp-and-dandruff-control.html">ITCHY SCALP AND DANDRUFF CONTROL WITH SHAMPOO BAR</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "products/for-hair-growth.html">HAIR GROWTH</a>
-                               
-                        </li>
-                    
-                  </ul> 
-             
-        </li>
-      
-        <li ><a  href="pages/all-ingredients.html">Shop by Ingredient</a>
-             
-        </li>
-      
-        <li ><a class="dropdown-toggle" href="#">Accessories</a>
-            
-                  <ul>
-                      
-                        <li ><a  href= "collections/accessories.html">JC Accessories</a>
-                               
-                        </li>
-                      
-                        <li ><a  href= "collections/facial-tools.html">Facial Tools</a>
-                               
-                        </li>
-                    
-                  </ul> 
-             
-        </li>
-      
-        <li ><a  href="pages/testimonials.html">Testimonials</a>
-             
-        </li>
-      
-        <li ><a  href="blogs/skincare-blog.html">Blog</a>
-             
-        </li>
-      
-      
-    </ul>
-
-    <div class="header-bottom">
-          <div class="header-bottom--left-content">
-            <div class="desktop-show">
-                <a class="page1" href="pages/our-chemistry.html">Our Chemistry</a>
-                <a href="pages/discover-organics.html">Discover Organic</a>
-            </div>
-            <div class="mobile-show right-content">
-                <button class="menu-button hidden-phone" aria-expanded="false" data-action="open-drawer" data-drawer-id="sidebar-menu"><span class="menu-icon"></span></button>
-                <a href="account/login.html" class="register hidden-phone"><span class="profile-icon"></span></a>
-                   <a class="download-app-link hidden-phone" href="https://www.juicychemistry.com/pages/app-download"><span class="icon-mobile bg-image"></span></a>
-                <a class="rewards-link hidden-phone" href="account/login.html"><span class="icon-gift bg-image"></span></a>	
-              
-               </div>
-          </div>
-          <div class="header-bottom--right-content">
-            <a href="https://juicychemistry.myshopify.com/apps/shipway_track" class="track-my-order">Track My Order</a>
-                <a href="account/login.html" class="login">Login</a>
-               
-              <a href="account/register.html" class="login register">Sign up<span class="profile-icon"></span></a>
-              
-            
-              <a href="pages/wishlist.html" class="track-my-order">Wishlist</a>
-                <a class="hidden-phone" href="cart.html" data-action="open-drawer" data-drawer-id="sidebar-cart" aria-label="Open cart">
-                  <span class="cart-icon">
-                  <span class="Header__CartCount">0</span></span></a>
-          </div>
+            <button onclick="openSideBar()" class="menu-button hidden-desk hidden-tablet-and-up" id="open-drawer" aria-expanded="false" data-action="open-drawer" data-drawer-id="sidebar-menu"><span class="menu-icon"></span></button>
+</div>
+      <div class="jc-logo bg-image">
+        <a href="/"><img class="jc-logo" src="//cdn.shopify.com/s/files/1/0058/7779/2832/files/Juicy_Chemistry_Logo_8498b074-7cad-44ec-8382-b1d30ab95bc7.png?v=1593161535" alt="Juicy Chemistry"></a>
       </div>
-     <div class="search-box">
-         <form action="https://juicychemistry.com/search" name="GET" role="search" class="Search__Form">
-             <div class="Search__InputIconWrapper">
-                 <span class="hidden-tablet-and-up"><svg class="Icon Icon--search" role="presentation" viewBox="0 0 18 17">
+      <div class="right-content">
+        
+          <div class="desktop-show">
+               
+            <div class="search-form hidden-phone">
+      <form action="/search" name="GET" role="search" class="">
+          <div class="input-group">
+              <input class="disable-enter-search" type="search" name="st" autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search">
+              <div class="input-group-append"><button type="submit" class="icon-search"></button></div>
+          </div>
+      </form>
+  </div>
+              <a class="download-app-link" href="https://www.juicychemistry.com/pages/app-download"><span class="icon-mobile bg-image"></span>Juicy app</a>
+           
+             
+        </div>
+          <div class="mobile-show header-bottom--right-content">
+               
+            <div class="Search__SearchBar hidden-tablet-and-up">
+                <button id="st-search-bar" class="Header__Icon Icon-Wrapper Icon-Wrapper--clickable" data-action="toggle-search" aria-label="Search">
+                  <span class=""><svg class="Icon Icon--search" role="presentation" viewBox="0 0 18 17">
 <g transform="translate(1 1)" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="square">
 <path d="M16 16l-5.0752-5.0752"></path>
 <circle cx="6.4" cy="6.4" r="6.4"></circle>
 </g>
 </svg></span>
-                 <span class="hidden-phone"><svg class="Icon Icon--search-desktop" role="presentation" viewBox="0 0 21 21">
+                </button>
+             </div>
+            <div class="search-form hidden-phone">
+              <form action="/search" name="GET" role="search" class="">
+                  <div class="input-group">
+                      <input class="hidden-phone disable-enter-search" type="search" name="st" autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search">
+                      <div class="input-group-append hidden-phone">
+                        <button data-action="toggle-search" type="submit" class="icon-search"></button>
+                    </div>
+                  </div>
+              </form>
+            </div>
+            <a class="hidden-tablet" onclick="openCart()" data-action="open-drawer" data-drawer-id="sidebar-cart" aria-label="Open cart">
+                <span class="cart-icon">
+                <span class="Header__CartCount">0</span></span></a>
+        </div>
+      </div>
+  </div>
+  <ul class="main-navigation">
+    
+<li><a class="dropdown-toggle" href="/collections/best-organic-face-care-products">Face</a>
+
+    <ul>
+        
+        <li><a href="/collections/cleansers">Cleansers</a>
+             
+        </li>
+        
+        <li><a href="/collections/toners">Toners</a>
+             
+        </li>
+        
+        <li><a href="/collections/face-moisturisers">Moisturisers</a>
+             
+        </li>
+        
+        <li><a href="/collections/sunscreen">Sun Screen</a>
+             
+        </li>
+        
+        <li><a href="/collections/facial-oils">Facial Oils</a>
+             
+        </li>
+        
+        <li><a href="/collections/eye-care">Eye Care</a>
+             
+        </li>
+        
+        <li><a href="/collections/lip-care">Lip Care</a>
+             
+        </li>
+        
+        <li><a href="/collections/scrubs">Scrubs</a>
+             
+        </li>
+        
+        <li><a href="/collections/masks">Face Masks</a>
+             
+        </li>
+        
+        <li><a href="/collections/powder">Dusting Powder</a>
+             
+        </li>
+        
+        <li><a href="/collections/makeup-cleanser">Makeup Cleansers</a>
+             
+        </li>
+      
+    </ul> 
+ 
+</li>
+
+<li><a class="dropdown-toggle" href="/collections/body-care">Body</a>
+
+    <ul>
+        
+        <li><a href="/collections/bath-salts">HAND &amp; FOOT CARE</a>
+             
+        </li>
+        
+        <li><a href="/collections/gourmet-soaps">Gourmet Soaps</a>
+             
+        </li>
+        
+        <li><a href="/collections/body-moisturisers">Body Moisturisers</a>
+             
+        </li>
+        
+        <li><a href="/collections/bath-body-oils-1">Bath &amp; Body Oils</a>
+             
+        </li>
+        
+        <li><a href="/collections/deodorant">Deodorants</a>
+             
+        </li>
+        
+        <li><a href="/collections/body-scrubs">Body Scrubs</a>
+             
+        </li>
+        
+        <li><a href="/collections/powder">Dusting Powders</a>
+             
+        </li>
+      
+    </ul> 
+ 
+</li>
+
+<li><a class="dropdown-toggle" href="/collections/hair-care">Hair</a>
+
+    <ul>
+        
+        <li><a href="/collections/oils">Oils</a>
+             
+        </li>
+        
+        <li><a href="/collections/masque">Masque</a>
+             
+        </li>
+        
+        <li><a href="/collections/shampoos">Shampoos</a>
+             
+        </li>
+        
+        <li><a href="/collections/dry-shampoo">Dry Shampoo</a>
+             
+        </li>
+        
+        <li><a href="/products/camellia-amla-apricot-organic-leave-in-conditioner">Conditioner</a>
+             
+        </li>
+      
+    </ul> 
+ 
+</li>
+
+<li><a class="dropdown-toggle" href="/collections/best-certified-organic-aromatherapy">Aromatherapy</a>
+
+    <ul>
+        
+        <li><a href="/collections/cold-pressed-oils">Cold Pressed Oils</a>
+             
+        </li>
+        
+        <li><a href="/collections/essential-oils">Essential Oils</a>
+             
+        </li>
+        
+        <li><a href="/collections/incense-sticks">Incense Sticks</a>
+             
+        </li>
+      
+    </ul> 
+ 
+</li>
+
+<li><a href="/collections/best-organic-baby-care-products">Juniors</a>
+ 
+</li>
+
+<li><a class="dropdown-toggle" href="https://juicychemistry.com/collections/routines">Shop By Concern</a>
+
+    <ul>
+        
+        <li><a href="/products/oily-skin-type-with-soap">OILY SKIN TYPE</a>
+             
+        </li>
+        
+        <li><a href="/products/damaged-pigmented-skin-with-soap-1">DAMAGED AND PIGMENTED SKIN WITH SOAP</a>
+             
+        </li>
+        
+        <li><a href="/products/damaged-pigmented-skin-with-face-wash">DAMAGED AND PIGMENTED SKIN WITH FACEWASH</a>
+             
+        </li>
+        
+        <li><a href="/products/oily-acne-prone-skin">OILY ACNE PRONE SKIN</a>
+             
+        </li>
+        
+        <li><a href="/products/black-heads-acne-prone-skin">BLACK HEADS &amp; ACNE PRONE SKIN</a>
+             
+        </li>
+        
+        <li><a href="/products/dry-mature-skin">DRY MATURE SKIN</a>
+             
+        </li>
+        
+        <li><a href="/products/normal-and-tanned-skin-type">NORMAL AND TANNED SKIN</a>
+             
+        </li>
+        
+        <li><a href="/products/anti-ageing">ANTI AGEING</a>
+             
+        </li>
+        
+        <li><a href="/products/eye-care">EYE CARE</a>
+             
+        </li>
+        
+        <li><a href="/products/for-dry-frizzy-hair">DRY AND FRIZZY HAIR</a>
+             
+        </li>
+        
+        <li><a href="/products/for-itchy-scalp-and-dandruff-control-with-shampoo">ITCHY SCALP AND DANDRUFF CONTROL WITH SHAMPOO</a>
+             
+        </li>
+        
+        <li><a href="/products/for-itchy-scalp-and-dandruff-control">ITCHY SCALP AND DANDRUFF CONTROL WITH SHAMPOO BAR</a>
+             
+        </li>
+        
+        <li><a href="/products/for-hair-growth">HAIR GROWTH</a>
+             
+        </li>
+      
+    </ul> 
+ 
+</li>
+
+<li><a href="/pages/all-ingredients">Shop by Ingredient</a>
+ 
+</li>
+
+<li><a class="dropdown-toggle" href="#">Accessories</a>
+
+    <ul>
+        
+        <li><a href="/collections/accessories">JC Accessories</a>
+             
+        </li>
+        
+        <li><a href="/collections/facial-tools">Facial Tools</a>
+             
+        </li>
+      
+    </ul> 
+ 
+</li>
+
+<li><a href="/pages/testimonials">Testimonials</a>
+ 
+</li>
+
+<li><a href="/blogs/news">Blog</a>
+ 
+</li>
+
+    
+  </ul>
+
+  <div class="header-bottom">
+        <div class="header-bottom--left-content">
+          <div class="desktop-show">
+              <a class="page1" href="/pages/our-chemistry">Our Chemistry</a>
+              <a href="/pages/discover-organics">Discover Organic</a>
+          </div>
+          <div class="mobile-show right-content">
+              <button class="menu-button hidden-phone" aria-expanded="false" data-action="open-drawer" data-drawer-id="sidebar-menu"><span class="menu-icon"></span></button>
+              <a href="/account/login" class="register hidden-phone"><span class="profile-icon"></span></a>
+             <a class="download-app-link hidden-phone" href="https://www.juicychemistry.com/pages/app-download"><span class="icon-mobile bg-image"></span></a>
+              <a class="rewards-link hidden-phone" href="https://www.juicychemistry.com/account/login"><span class="icon-gift bg-image"></span></a>	
+            
+         </div>
+        </div>
+        <div class="header-bottom--right-content">
+          <a href="https://juicychemistry.myshopify.com/apps/shipway_track" class="track-my-order">Track My Order</a>
+              <a href="/account/login" class="login">Login</a>
+             
+            <a href="/account/register" class="login register">Sign up<span class="profile-icon"></span></a>
+            
+          
+            <a href="https://juicychemistry.com/pages/wishlist" class="track-my-order">Wishlist</a>
+              <a class="hidden-phone" href="/cart" data-action="open-drawer" data-drawer-id="sidebar-cart" aria-label="Open cart">
+                <span class="cart-icon">
+                <span class="Header__CartCount">1</span></span></a>
+        </div>
+</div>
+   <div class="search-box">
+       <form action="/search" name="GET" role="search" class="Search__Form">
+           <div class="Search__InputIconWrapper">
+               <span class="hidden-tablet-and-up"><svg class="Icon Icon--search" role="presentation" viewBox="0 0 18 17">
+<g transform="translate(1 1)" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="square">
+<path d="M16 16l-5.0752-5.0752"></path>
+<circle cx="6.4" cy="6.4" r="6.4"></circle>
+</g>
+</svg></span>
+               <span class="hidden-phone"><svg class="Icon Icon--search-desktop" role="presentation" viewBox="0 0 21 21">
 <g transform="translate(1 1)" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square">
 <path d="M18 18l-5.7096-5.7096"></path>
 <circle cx="7.2" cy="7.2" r="7.2"></circle>
 </g>
 </svg></span>
-             </div>
+           </div>
 
-             <input type="search" class="Search__Input Heading disable-enter-search" name="st" autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search..." autofocus>
-             <input type="hidden" name="type" value="product">
-           <div class="close-search"><svg class="Icon Icon--close" role="presentation" viewBox="0 0 16 14">
+           <input type="search" class="Search__Input Heading disable-enter-search" name="st" autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search..." autofocus="">
+           <input type="hidden" name="type" value="product">
+         <div class="close-search"><svg class="Icon Icon--close" role="presentation" viewBox="0 0 16 14">
 <path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path>
 </svg></div>
-         </form>
-     </div>
-      
+       </form>
+   </div>
+
 </header>
 
+<div id="shopify-section-sidebar-menu" class="shopify-section"><section id="sidebar-menu" class="SidebarMenu Drawer Drawer--small Drawer--fromLeft" aria-hidden="true" data-section-id="sidebar-menu" data-section-type="sidebar-menu" style="top: 68px; max-height: 683px;" tabindex="-1">
+  <header class="Drawer__header" data-drawer-animated-left="">
+<!--       <button class="Drawer__Close Icon-Wrapper--clickable" data-action="close-drawer" data-drawer-id="sidebar-menu" aria-label="Close navigation"><svg class="Icon Icon--close" role="presentation" viewBox="0 0 16 14">
+    <path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path>
+  </svg></button> -->
+    <div class="sidebar-banner-container">
+        <img src="//cdn.shopify.com/s/files/1/0058/7779/2832/files/Juicy_Chemistry_Logo_8498b074-7cad-44ec-8382-b1d30ab95bc7.png?v=1593161535">
+      </div>
+    <div class="Drawer__Container drawer-header">
+      
+      <a href="/account/login" class="login"><span class="profile-icon"></span>Login</a> <span class="v-line">|</span>
+         
+            <a href="/account/register" class="register">Sign up</a>
+        
+        <a class="rewards-link" href="https://juicychemistry.myshopify.com/apps/shipway_track">Track My Order</a>
+
+    </div>
+  </header>
+
+  <div class="Drawer__Content">
+    <div class="Drawer__Main" data-drawer-animated-left="" data-scrollable="">
+      <div class="Drawer__Container">
+        <nav class="SidebarMenu__Nav SidebarMenu__Nav--primary" aria-label="Sidebar navigation"><div class="Collapsible"><button class="Collapsible__Button Heading u-h6" data-action="toggle-collapsible" aria-expanded="false">Face<span class="Collapsible__Plus"></span>
+                </button>
+
+                <div class="Collapsible__Inner">
+                  <div class="Collapsible__Content"><div class="Collapsible"><a href="/collections/cleansers" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Cleansers</a></div><div class="Collapsible"><a href="/collections/toners" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Toners</a></div><div class="Collapsible"><a href="/collections/face-moisturisers" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Moisturisers</a></div><div class="Collapsible"><a href="/collections/sunscreen" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Sun Screen</a></div><div class="Collapsible"><a href="/collections/facial-oils" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Facial Oils</a></div><div class="Collapsible"><a href="/collections/eye-care" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Eye Care</a></div><div class="Collapsible"><a href="/collections/lip-care" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Lip Care</a></div><div class="Collapsible"><a href="/collections/scrubs" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Scrubs</a></div><div class="Collapsible"><a href="/collections/masks" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Face Masks</a></div><div class="Collapsible"><a href="/collections/powder" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Dusting Powder</a></div><div class="Collapsible"><a href="/collections/makeup-cleanser" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Makeup Cleansers</a></div></div>
+                </div></div><div class="Collapsible"><button class="Collapsible__Button Heading u-h6" data-action="toggle-collapsible" aria-expanded="false">Body<span class="Collapsible__Plus"></span>
+                </button>
+
+                <div class="Collapsible__Inner">
+                  <div class="Collapsible__Content"><div class="Collapsible"><a href="/collections/bath-salts" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">HAND &amp; FOOT CARE</a></div><div class="Collapsible"><a href="/collections/gourmet-soaps" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Gourmet Soaps</a></div><div class="Collapsible"><a href="/collections/body-moisturisers" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Body Moisturisers</a></div><div class="Collapsible"><a href="/collections/bath-body-oils-1" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Bath &amp; Body Oils</a></div><div class="Collapsible"><a href="/collections/deodorant" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Deodorants</a></div><div class="Collapsible"><a href="/collections/body-scrubs" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Body Scrubs</a></div><div class="Collapsible"><a href="/collections/powder" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Dusting Powders</a></div></div>
+                </div></div><div class="Collapsible"><button class="Collapsible__Button Heading u-h6" data-action="toggle-collapsible" aria-expanded="false">Hair<span class="Collapsible__Plus"></span>
+                </button>
+
+                <div class="Collapsible__Inner">
+                  <div class="Collapsible__Content"><div class="Collapsible"><a href="/collections/oils" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Oils</a></div><div class="Collapsible"><a href="/collections/masque" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Masque</a></div><div class="Collapsible"><a href="/collections/shampoos" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Shampoos</a></div><div class="Collapsible"><a href="/collections/dry-shampoo" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Dry Shampoo</a></div><div class="Collapsible"><a href="/products/camellia-amla-apricot-organic-leave-in-conditioner" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Conditioner</a></div></div>
+                </div></div><div class="Collapsible"><button class="Collapsible__Button Heading u-h6" data-action="toggle-collapsible" aria-expanded="false">Aromatherapy<span class="Collapsible__Plus"></span>
+                </button>
+
+                <div class="Collapsible__Inner">
+                  <div class="Collapsible__Content"><div class="Collapsible"><a href="/collections/cold-pressed-oils" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Cold Pressed Oils</a></div><div class="Collapsible"><a href="/collections/essential-oils" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Essential Oils</a></div><div class="Collapsible"><a href="/collections/incense-sticks" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Incense Sticks</a></div></div>
+                </div></div><div class="Collapsible"><a href="/collections/best-organic-baby-care-products" class="Collapsible__Button Heading Link Link--primary u-h6">Juniors</a></div><div class="Collapsible"><button class="Collapsible__Button Heading u-h6" data-action="toggle-collapsible" aria-expanded="false">Shop By Concern<span class="Collapsible__Plus"></span>
+                </button>
+
+                <div class="Collapsible__Inner">
+                  <div class="Collapsible__Content"><div class="Collapsible"><a href="/products/oily-skin-type-with-soap" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">OILY SKIN TYPE</a></div><div class="Collapsible"><a href="/products/damaged-pigmented-skin-with-soap-1" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">DAMAGED AND PIGMENTED SKIN WITH SOAP</a></div><div class="Collapsible"><a href="/products/damaged-pigmented-skin-with-face-wash" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">DAMAGED AND PIGMENTED SKIN WITH FACEWASH</a></div><div class="Collapsible"><a href="/products/oily-acne-prone-skin" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">OILY ACNE PRONE SKIN</a></div><div class="Collapsible"><a href="/products/black-heads-acne-prone-skin" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">BLACK HEADS &amp; ACNE PRONE SKIN</a></div><div class="Collapsible"><a href="/products/dry-mature-skin" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">DRY MATURE SKIN</a></div><div class="Collapsible"><a href="/products/normal-and-tanned-skin-type" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">NORMAL AND TANNED SKIN</a></div><div class="Collapsible"><a href="/products/anti-ageing" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">ANTI AGEING</a></div><div class="Collapsible"><a href="/products/eye-care" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">EYE CARE</a></div><div class="Collapsible"><a href="/products/for-dry-frizzy-hair" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">DRY AND FRIZZY HAIR</a></div><div class="Collapsible"><a href="/products/for-itchy-scalp-and-dandruff-control-with-shampoo" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">ITCHY SCALP AND DANDRUFF CONTROL WITH SHAMPOO</a></div><div class="Collapsible"><a href="/products/for-itchy-scalp-and-dandruff-control" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">ITCHY SCALP AND DANDRUFF CONTROL WITH SHAMPOO BAR</a></div><div class="Collapsible"><a href="/products/for-hair-growth" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">HAIR GROWTH</a></div></div>
+                </div></div><div class="Collapsible"><a href="/pages/all-ingredients" class="Collapsible__Button Heading Link Link--primary u-h6">Shop by Ingredient</a></div><div class="Collapsible"><button class="Collapsible__Button Heading u-h6" data-action="toggle-collapsible" aria-expanded="false">Accessories<span class="Collapsible__Plus"></span>
+                </button>
+
+                <div class="Collapsible__Inner">
+                  <div class="Collapsible__Content"><div class="Collapsible"><a href="/collections/accessories" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">JC Accessories</a></div><div class="Collapsible"><a href="/collections/facial-tools" class="Collapsible__Button Heading Text--subdued Link Link--primary u-h7">Facial Tools</a></div></div>
+                </div></div><div class="Collapsible"><a href="/pages/testimonials" class="Collapsible__Button Heading Link Link--primary u-h6">Testimonials</a></div><div class="Collapsible"><a href="/blogs/news" class="Collapsible__Button Heading Link Link--primary u-h6">Blog</a></div></nav><nav class="SidebarMenu__Nav SidebarMenu__Nav--secondary">
+          <ul class="Linklist Linklist--spacingLoose"><li class="Linklist__Item">
+                <a href="/pages/our-chemistry" class="Text--subdued Link Link--primary">Our Chemistry</a>
+              </li><li class="Linklist__Item">
+                <a href="/pages/discover-organics" class="Text--subdued Link Link--primary">Discover Organics</a>
+              </li><li class="Linklist__Item">
+                <a href="/pages/press" class="Text--subdued Link Link--primary">Press</a>
+              </li><li class="Linklist__Item">
+                <a href="/pages/contact" class="Text--subdued Link Link--primary">Contact Us</a>
+              </li><li class="Linklist__Item">
+                <a href="/pages/shipping-policy" class="Text--subdued Link Link--primary">Shipping Policy</a>
+              </li><li class="Linklist__Item">
+                <a href="/account/login" class="Text--subdued Link Link--primary">Account</a>
+              </li></ul>
+        </nav>
+      </div>
+    </div><aside class="Drawer__Footer" data-drawer-animated-bottom=""><ul class="SidebarMenu__Social HorizontalList HorizontalList--spacingFill">
+  <li class="HorizontalList__Item">
+    <a href="https://www.facebook.com/JuicyChemistry/" class="Link Link--primary" target="_blank" rel="noopener" aria-label="Facebook">
+      <span class="Icon-Wrapper--clickable"><svg class="Icon Icon--facebook" viewBox="0 0 9 17">
+    <path d="M5.842 17V9.246h2.653l.398-3.023h-3.05v-1.93c0-.874.246-1.47 1.526-1.47H9V.118C8.718.082 7.75 0 6.623 0 4.27 0 2.66 1.408 2.66 3.994v2.23H0v3.022h2.66V17h3.182z"></path>
+  </svg></span>
+    </a>
+  </li>
+
+  
+<li class="HorizontalList__Item">
+    <a href="https://twitter.com/juicychemistry" class="Link Link--primary" target="_blank" rel="noopener" aria-label="Twitter">
+      <span class="Icon-Wrapper--clickable"><svg class="Icon Icon--twitter" role="presentation" viewBox="0 0 32 26">
+    <path d="M32 3.077c-1.1748.525-2.4433.8748-3.768 1.031 1.356-.8123 2.3932-2.0995 2.887-3.6305-1.2686.7498-2.6746 1.2997-4.168 1.5934C25.751.796 24.045.0025 22.158.0025c-3.6242 0-6.561 2.937-6.561 6.5612 0 .5124.0562 1.0123.1686 1.4935C10.3104 7.7822 5.474 5.1702 2.237 1.196c-.5624.9687-.8873 2.0997-.8873 3.2994 0 2.2746 1.156 4.2867 2.9182 5.4615-1.075-.0314-2.0872-.3313-2.9745-.8187v.0812c0 3.1806 2.262 5.8363 5.2677 6.4362-.55.15-1.131.2312-1.731.2312-.4248 0-.831-.0438-1.2372-.1188.8374 2.6057 3.262 4.5054 6.13 4.5616-2.2495 1.7622-5.074 2.812-8.1546 2.812-.531 0-1.0498-.0313-1.5684-.0938 2.912 1.8684 6.3613 2.9494 10.0668 2.9494 12.0726 0 18.6776-10.0043 18.6776-18.6776 0-.2874-.0063-.5686-.0188-.8498C30.0066 5.5514 31.119 4.3954 32 3.077z"></path>
+  </svg></span>
+    </a>
+  </li>
+
+  
+<li class="HorizontalList__Item">
+    <a href="https://www.instagram.com/juicy_chemistry" class="Link Link--primary" target="_blank" rel="noopener" aria-label="Instagram">
+      <span class="Icon-Wrapper--clickable"><svg class="Icon Icon--instagram" role="presentation" viewBox="0 0 32 32">
+    <path d="M15.994 2.886c4.273 0 4.775.019 6.464.095 1.562.07 2.406.33 2.971.552.749.292 1.283.635 1.841 1.194s.908 1.092 1.194 1.841c.216.565.483 1.41.552 2.971.076 1.689.095 2.19.095 6.464s-.019 4.775-.095 6.464c-.07 1.562-.33 2.406-.552 2.971-.292.749-.635 1.283-1.194 1.841s-1.092.908-1.841 1.194c-.565.216-1.41.483-2.971.552-1.689.076-2.19.095-6.464.095s-4.775-.019-6.464-.095c-1.562-.07-2.406-.33-2.971-.552-.749-.292-1.283-.635-1.841-1.194s-.908-1.092-1.194-1.841c-.216-.565-.483-1.41-.552-2.971-.076-1.689-.095-2.19-.095-6.464s.019-4.775.095-6.464c.07-1.562.33-2.406.552-2.971.292-.749.635-1.283 1.194-1.841s1.092-.908 1.841-1.194c.565-.216 1.41-.483 2.971-.552 1.689-.083 2.19-.095 6.464-.095zm0-2.883c-4.343 0-4.889.019-6.597.095-1.702.076-2.864.349-3.879.743-1.054.406-1.943.959-2.832 1.848S1.251 4.473.838 5.521C.444 6.537.171 7.699.095 9.407.019 11.109 0 11.655 0 15.997s.019 4.889.095 6.597c.076 1.702.349 2.864.743 3.886.406 1.054.959 1.943 1.848 2.832s1.784 1.435 2.832 1.848c1.016.394 2.178.667 3.886.743s2.248.095 6.597.095 4.889-.019 6.597-.095c1.702-.076 2.864-.349 3.886-.743 1.054-.406 1.943-.959 2.832-1.848s1.435-1.784 1.848-2.832c.394-1.016.667-2.178.743-3.886s.095-2.248.095-6.597-.019-4.889-.095-6.597c-.076-1.702-.349-2.864-.743-3.886-.406-1.054-.959-1.943-1.848-2.832S27.532 1.247 26.484.834C25.468.44 24.306.167 22.598.091c-1.714-.07-2.26-.089-6.603-.089zm0 7.778c-4.533 0-8.216 3.676-8.216 8.216s3.683 8.216 8.216 8.216 8.216-3.683 8.216-8.216-3.683-8.216-8.216-8.216zm0 13.549c-2.946 0-5.333-2.387-5.333-5.333s2.387-5.333 5.333-5.333 5.333 2.387 5.333 5.333-2.387 5.333-5.333 5.333zM26.451 7.457c0 1.059-.858 1.917-1.917 1.917s-1.917-.858-1.917-1.917c0-1.059.858-1.917 1.917-1.917s1.917.858 1.917 1.917z"></path>
+  </svg></span>
+    </a>
+  </li>
+
+  
+<li class="HorizontalList__Item">
+    <a href="https://www.youtube.com/channel/UCNkBtAfx0b2Gs4_eMXE6qcw/featured" class="Link Link--primary" target="_blank" rel="noopener" aria-label="YouTube">
+      <span class="Icon-Wrapper--clickable"><svg class="Icon Icon--youtube" role="presentation" viewBox="0 0 33 32">
+    <path d="M0 25.693q0 1.997 1.318 3.395t3.209 1.398h24.259q1.891 0 3.209-1.398t1.318-3.395V6.387q0-1.997-1.331-3.435t-3.195-1.438H4.528q-1.864 0-3.195 1.438T.002 6.387v19.306zm12.116-3.488V9.876q0-.186.107-.293.08-.027.133-.027l.133.027 11.61 6.178q.107.107.107.266 0 .107-.107.213l-11.61 6.178q-.053.053-.107.053-.107 0-.16-.053-.107-.107-.107-.213z"></path>
+  </svg></span>
+    </a>
+  </li>
+
+  
+<li class="HorizontalList__Item">
+    <a href="https://www.linkedin.com/company/juicy-chemistry" class="Link Link--primary" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <span class="Icon-Wrapper--clickable"><svg class="Icon Icon--linkedin" role="presentation" viewBox="0 0 24 24">
+    <path d="M19 0H5a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zM8 19H5V8h3v11zM6.5 6.73a1.76 1.76 0 1 1 0-3.53 1.76 1.76 0 0 1 0 3.53zM20 19h-3v-5.6c0-3.37-4-3.12-4 0V19h-3V8h3v1.76a3.8 3.8 0 0 1 7 2.48V19z"></path>
+  </svg></span>
+    </a>
+  </li>
+
+  
+
+</ul>
+
+</aside></div>
+</section>
+
+</div>
+
+<div onclick="closeOverlay()" id="overlay" class="PageOverlay" style="top:68px"></div>
+
+<div id="transition" class="PageTransition" style="visibility: hidden; opacity: 0;"></div>
+
+<div id="sidebar-cart" class="Drawer Drawer--fromRight" aria-hidden="true" data-section-id="cart" data-section-type="cart" 
+style="top: 0px; max-height: 683px;display: block;" tabindex="-1">
+  <div class="Drawer__Header Drawer__Header--bordered Drawer__Container">
+      <span class="Drawer__Title Heading u-h4">You're one step away!!</span>
+
+      <button onclick="closeOverlay()" class="Drawer__Close Icon-Wrapper--clickable" data-action="close-drawer" data-drawer-id="sidebar-cart" aria-label="Close cart">
+        <svg class="Icon Icon--close" role="presentation" viewBox="0 0 16 14">
+        <path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path>
+      </svg>
+  </button>
+  </div>
+
+  <form class="Cart Drawer__Content" action="/cart" method="POST" novalidate="">
+    <div class="Drawer__Main" data-scrollable=""><div class="Drawer__Container">
+          <input type="hidden" name="attributes[collection_mobile_items_per_row]" value="">
+          <input type="hidden" name="attributes[collection_desktop_items_per_row]" value="">
+
+          <div class="Cart__ItemList"><div class="CartItemWrapper"><div class="CartItem">
+      <div class="CartItem__ImageWrapper AspectRatio">
+        <div class="AspectRatio" style="--aspect-ratio: 1.0">
+          <img class="CartItem__Image" src="//cdn.shopify.com/s/files/1/0058/7779/2832/products/8.OilySkinType_240x.jpg?v=1602766186" alt="OILY SKIN TYPE - juicychemistry">
+        </div>
+      </div>
+
+      <div class="CartItem__Info">
+        <h2 class="CartItem__Title Heading">
+          <a href="/products/oily-skin-type-with-soap?variant=31441435230272"><span class="so-offer-title_31441435230272">OILY SKIN TYPE</span></a>
+        </h2>
+
+        <div class="CartItem__Meta Heading Text--subdued"><ul class="CartItem__PropertyList"></ul><div class="CartItem__PriceList"><span class="CartItem__Price Price" data-money-convertible=""><span class="so-unit-price_31441435230272"><span class="money" doubly-currency-inr="425000" doubly-currency="INR">₹ 4,250</span></span></span></div>
+        </div><div class="CartItem__Actions Heading Text--subdued" style="text-align: center">
+            <div class="CartItem__QuantitySelector">
+              <div class="QuantitySelector"><a class="QuantitySelector__Button Link Link--primary" title="Set quantity to 0" href="/cart/change?quantity=0&amp;id=31441435230272:06215d2a5240345cee588c7427ab8ee6" data-quantity="0" data-line-id="31441435230272:06215d2a5240345cee588c7427ab8ee6" data-action="update-item-quantity"><svg class="Icon Icon--minus" role="presentation" viewBox="0 0 16 2">
+      <path d="M1,1 L15,1" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="square"></path>
+    </svg></a>
+
+                <input type="text" name="updates[31441435230272:06215d2a5240345cee588c7427ab8ee6]" id="updates_31441435230272:06215d2a5240345cee588c7427ab8ee6" class="QuantitySelector__CurrentQuantity" pattern="[0-9]*" data-line-id="31441435230272:06215d2a5240345cee588c7427ab8ee6" value="1"><a class="QuantitySelector__Button Link Link--primary" title="Set quantity to 2" href="/cart/change?quantity=2&amp;id=31441435230272:06215d2a5240345cee588c7427ab8ee6" data-quantity="2" data-line-id="31441435230272:06215d2a5240345cee588c7427ab8ee6" data-action="update-item-quantity"><svg class="Icon Icon--plus" role="presentation" viewBox="0 0 16 16">
+      <g stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <path d="M8,1 L8,15"></path>
+        <path d="M1,8 L15,8"></path>
+      </g>
+    </svg></a>
+              </div>
+            </div>
+
+            <a href="/cart/change?quantity=0&amp;id=31441435230272:06215d2a5240345cee588c7427ab8ee6" class="CartItem__Remove Link Link--underline Link--underlineShort" data-quantity="0" data-line-id="31441435230272:06215d2a5240345cee588c7427ab8ee6" data-action="remove-item">Remove</a>
+          </div>
+      </div></div></div></div>
+        </div></div><div class="Drawer__Footer" data-drawer-animated-bottom=""><button type="button" class="Cart__NoteButton" data-action="toggle-cart-note">100% PURCHASE PROTECTION</button><div class="doubly-message" style="display: none;">All orders are processed in INR. While the content of your cart is currently displayed in <span class="selected-currency">INR</span>, you will checkout using INR.</div><button type="submit" name="checkout" class="Cart__Checkout Button Button--primary Button--full">
+          <span>Checkout →</span>
+          <span class="Button__SeparatorDot"></span>
+          <span data-money-convertible=""><span class="money" doubly-currency-inr="425000" doubly-currency="INR">₹ 4,250</span></span>
+        </button>
+        <img src="//cdn.shopify.com/s/files/1/0043/5693/1702/t/8/assets/payment.png" style="margin-top:16px;"><div class="Cart__OffscreenNoteContainer" aria-hidden="true"><span class="Cart__NoteButton">100% PURCHASE PROTECTION</span><div class="Form__Item">
+              <textarea class="Cart__Note Form__Textarea" name="note" id="cart-note" rows="3" placeholder="How can we help you?" data-scrollable=""></textarea>
+            </div>
+
+            <button type="button" class="Button Button--primary Button--full" data-action="toggle-cart-note">Checkout</button>
+          </div></div></form>
+</div>

@@ -25,29 +25,91 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
 
 </head>
-<body>
+<body id="100-organic-amp-natural-skin-care-products-online-in-india" class="prestige--v4  template-index">
   <app-root></app-root>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="http://thimatic-apps.com/product_review/theme_files/wc-product-review.js?v=1.1" type="text/javascript"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/apphq/slidecart-dist@master/slidecarthq.js?1607425487692"></script>
   <script>
     document.documentElement.style.setProperty('--header-height', document.getElementById('shopify-section-header').offsetHeight + 'px');
   </script>
   <script>
+
+      let state = false;
+
+      let cart = false;
+
+     function openSideBar(){
+         if(state == false){
+            document.getElementById('overlay').classList.add('is-visible');
+            document.getElementById('sidebar-menu').setAttribute('aria-hidden', 'false');
+            document.getElementById('sidebar-menu').style.overflow = 'scroll';
+            document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+            state = true;
+            cart = false;
+         }else{
+            document.getElementById('overlay').classList.remove('is-visible');
+            document.getElementById('sidebar-menu').setAttribute('aria-hidden', 'true');
+            document.getElementById('sidebar-menu').style.overflow = 'none';
+            document.getElementsByTagName('body')[0].style.overflow = 'scroll';
+            state = false;
+         }
+     }
+     
+     function openCart(){
+
+        console.log(document.getElementById('sidebar-cart').style.display);
+
+         if(cart == false){
+            document.getElementById('overlay').classList.add('is-visible');
+            document.getElementById('sidebar-cart').setAttribute('aria-hidden', 'false');
+            document.getElementById('sidebar-cart').style.overflow = 'scroll';
+            document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+            document.getElementById('overlay').style.top = '0px';
+            document.getElementById('header-top').style.zIndex = '5';
+            cart = true;
+            state = false;
+         
+         }else{
+            
+            document.getElementById('overlay').style.top = '68px';
+            document.getElementById('header-top').style.zIndex = '1020';
+            document.getElementById('sidebar-cart').setAttribute('aria-hidden', 'true');
+            document.getElementById('sidebar-cart').style.overflow = 'none';
+            document.getElementsByTagName('body')[0].style.overflow = 'scroll';
+            cart = false;
+        
+         }
+
+        
+     }
+
+     function closeOverlay(){
+        if(cart){
+            openCart();
+         }else if(state){
+            openSideBar();
+         }
+        document.getElementById('overlay').classList.remove('is-visible');
+     }
+
+     
+
     //Testimonails
    $('#testimonials .owl-carousel').owlCarousel({
-    items: 1,
-    loop: true,
-    nav:false,
-    dots: true,
-    autoplay: true,
-    // autoplaySpeed: 8000,
-    autoplayTimeout:8000,
-    // slideTransition: 'linear',
-    // smartSpeed: 1000,
-    navText: ["undefined<img src='//cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-L.svg?v=1621263042506456347'>","undefined<img src='http://cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-R.svg?v=14607592447807313431'>"]
-});
+        items: 1,
+        loop: true,
+        nav:false,
+        dots: true,
+        autoplay: true,
+        // autoplaySpeed: 8000,
+        autoplayTimeout:8000,
+        // slideTransition: 'linear',
+        // smartSpeed: 1000,
+        navText: ["undefined<img src='//cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-L.svg?v=1621263042506456347'>","undefined<img src='http://cdn.shopify.com/s/files/1/0058/7779/2832/t/17/assets/jc-fav-slider-icon-R.svg?v=14607592447807313431'>"]
+    });
 
    $('.template-index .home-collection .desktop-view').slick({
       infinite: false,
